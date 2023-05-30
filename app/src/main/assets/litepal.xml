@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="data" />
+    <version value="1" />
+    <list>
+        <mapping class="com.google.privatesharingapp.bean.UserBean" />
+        <mapping class="com.google.privatesharingapp.bean.TruckBean" />
+        <mapping class="com.google.privatesharingapp.bean.DeliveryBean" />
+    </list>
+</litepal>

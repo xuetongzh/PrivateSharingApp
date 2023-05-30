@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="username："
+            android:textColor="#6E6E6E"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:hint="username"
+            android:textColor="#6E6E6E" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="password："
+            android:textColor="#6E6E6E"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:hint="password"
+            android:textColor="#6E6E6E" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:text="LOGIN"
+        android:textColor="#6E6E6E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:text="SIGN UP"
+        android:textColor="#6E6E6E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

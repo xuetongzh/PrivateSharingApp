@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyOrderActivity"
+    android:paddingHorizontal="20dp">
+
+    <ImageView
+        android:id="@+id/selectImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_baseline_image_24" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="From Sender：ye"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Pick up time：12:00"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="To Receiver：ye"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Pick up time：16:00"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Good Description"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:gravity="center"
+            android:hint="Weight"
+            android:textColor="#323232" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:gravity="center"
+            android:hint="Good Type"
+            android:textColor="#323232" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/width"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:gravity="center"
+            android:hint="Width"
+            android:textColor="#323232" />
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:gravity="center"
+            android:hint="Height"
+            android:textColor="#323232" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/length"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:gravity="center"
+            android:hint="Length"
+            android:textColor="#323232" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/style_edittext"
+            android:textColor="#323232" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/getEstimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:text="GET ESTIMATE"
+        android:textColor="#323232"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

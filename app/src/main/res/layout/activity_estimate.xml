@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EstimateActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/pickUpLo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Pick up location：16:00"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dropOffLo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Drop off location：16:00"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Approx.Fare：ye"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Approx.Travel time：12:00"
+        android:textColor="#323232"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bookNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:text="BOOK NOW"
+        android:textColor="#323232"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/callDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:text="CALL DRIVER"
+        android:textColor="#323232"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

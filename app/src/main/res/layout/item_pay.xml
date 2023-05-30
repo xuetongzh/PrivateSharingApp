@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="Pay"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/google" />
+
+    <TextView
+        android:id="@+id/wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_tv"
+        android:drawablePadding="20dp"
+        android:text="Wechat Pay"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/weixin" />
+
+    <TextView
+        android:id="@+id/alipay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_tv"
+        android:drawablePadding="20dp"
+        android:text="Ali Pay"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/zhifubao" />
+
+    <TextView
+        android:id="@+id/union"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_tv"
+        android:drawablePadding="10dp"
+        android:text="Union Pay"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/yinlian" />
+</LinearLayout>
